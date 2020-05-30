@@ -1,0 +1,26 @@
+﻿<Window x:Class="FootballManager.Matches"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FootballManager"
+        mc:Ignorable="d"
+        Title="Match scores" Height="450" Width="800">
+    <Grid>
+        <DataGrid x:Name="TeamDG" AutoGenerateColumns="False" CanUserAddRows="False" IsReadOnly="True"
+                  Grid.Row="1" ColumnWidth="*" Margin="5" IsSynchronizedWithCurrentItem="True" >
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="First Team Name" Binding="{Binding FirstTeamWindowName}"/>
+                <DataGridTextColumn Header="Second Team Name" Binding="{Binding SecondTeamName}"/>
+                <DataGridTextColumn Header="Score" Binding="{Binding Score}"/>
+                <DataGridTextColumn Header="Date" Binding="{Binding Date}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <TextBox HorizontalAlignment="Left" Height="59" Margin="5,33,0,0" TextWrapping="Wrap" Text="Tigers" VerticalAlignment="Top" Width="195" />
+        <TextBox HorizontalAlignment="Left" Height="59" Margin="205,33,0,0" TextWrapping="Wrap" Text="Barclays" VerticalAlignment="Top" Width="189" />
+        <TextBox HorizontalAlignment="Left" Height="59" Margin="399,33,0,0" TextWrapping="Wrap" Text="2-0" VerticalAlignment="Top" Width="190" />
+        <TextBox HorizontalAlignment="Left" Height="59" Margin="594,33,0,0" TextWrapping="Wrap" Text="10.05.2020" VerticalAlignment="Top" Width="193" />
+        <Button Content="Go to the first team" HorizontalAlignment="Left" Margin="259,144,0,0" VerticalAlignment="Top" Width="115" Height="33" Click="Button_Click"/>
+        <Button Content="Go to the second team" HorizontalAlignment="Left" Margin="420,144,0,0" VerticalAlignment="Top" Width="135" Height="33" Click="Button_Click_1"/>
+    </Grid>
+</Window>
