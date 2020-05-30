@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Rita\Desktop\СМТРПЗ-1\FootballManager\FootballManager\obj\Debug\
+C:\Users\Rita\Desktop\Football-Manager\FootballManager\FootballManager\obj\Debug\
 FootballManager
 none
 false
 DEBUG;TRACE
-C:\Users\Rita\Desktop\СМТРПЗ-1\FootballManager\FootballManager\App.xaml
-3347557217
-3134350449
-15-545340227
-155-388139481
-SecondTeamWindow.xaml;Matches.xaml;FirstTeamWindow.xaml;
+C:\Users\Rita\Desktop\Football-Manager\FootballManager\FootballManager\App.xaml
+3170432938
+3-2146879176
+1550010523
+155427265515
+SecondTeamWindow.xaml;MatchesWindow.xaml;FirstTeamWindow.xaml;
 
-False
+True
 

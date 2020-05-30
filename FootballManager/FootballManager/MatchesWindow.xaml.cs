@@ -20,11 +20,11 @@ namespace FootballManager
     /// <summary>
     /// Interaction logic for Matches.xaml
     /// </summary>
-    public partial class Matches : Window
+    public partial class MatchesWindow : Window
     {
         private readonly ServiceProvider serviceProvider;
  
-        public Matches() {
+        public MatchesWindow() {
             ServiceCollection services = new ServiceCollection();
             services.AddDbContext<FirstTeamDbContext>(options =>
             {

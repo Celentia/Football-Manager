@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FootballManager.Data.FirstTeamPlayer">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAEAAAAAAAAAgAAAAAAAAAAAIAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Data\FirstTeam.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FootballManager.Data.SecondTeamPlayer">
+    <Position X="10.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAEAAAAAAAAAgAAAAAAAAAAAIAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Data\SecondTeam.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FootballManager.FirstTeamWindow">
+    <Position X="3" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACACgAAkAAAAAAAAAAAEAAAAEAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>FirstTeamWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="NewPlayer" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FootballManager.MatchesWindow">
+    <Position X="5.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAEAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MatchesWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FootballManager.SecondTeamWindow">
+    <Position X="7.75" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACACgAAkAAAAAAAAAAAEAAAAEAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>SecondTeamWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="NewPlayer" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Windows.Window" Collapsed="true">
+    <Position X="5.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

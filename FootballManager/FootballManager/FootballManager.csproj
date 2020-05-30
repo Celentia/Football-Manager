@@ -174,7 +174,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Matches.xaml">
+    <Page Include="MatchesWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -193,8 +193,8 @@
     <Compile Include="SecondTeamWindow.xaml.cs">
       <DependentUpon>SecondTeamWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Matches.xaml.cs">
-      <DependentUpon>Matches.xaml</DependentUpon>
+    <Compile Include="MatchesWindow.xaml.cs">
+      <DependentUpon>MatchesWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="FirstTeamWindow.xaml.cs">
       <DependentUpon>FirstTeamWindow.xaml</DependentUpon>
@@ -220,6 +220,7 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <None Include="ClassDiagram.cd" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
